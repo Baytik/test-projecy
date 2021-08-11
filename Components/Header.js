@@ -3,7 +3,7 @@ import { Image, TouchableOpacity, View } from 'react-native'
 
 const Header = () => {
   return (
-    <View style={{ flexDirection: 'row', justifyContent: 'space-between', marginTop: 15 }}>
+    <View style={{ flexDirection: 'row', justifyContent: 'space-between', marginVertical: 15 }}>
       <View>
         <TouchableOpacity>
           <Image source={require('../Icons/burger-menu.png')} style={{ width: 24, height: 24 }}/>
