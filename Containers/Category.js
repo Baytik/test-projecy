@@ -3,7 +3,7 @@ import { ScrollView, Text, TouchableOpacity, View } from 'react-native'
 
 const Category = (props) => {
   return (
-    <View style={{ marginTop: 10, backgroundColor: '#F4F6F8', borderRadius: 12 }}>
+    <View style={{ marginTop: 10, backgroundColor: '#F4F6F8', borderRadius: 12, alignItems: props.center ? props.center : 'stretch' }}>
       <ScrollView
         horizontal={true}
         showsVerticalScrollIndicator={false}
