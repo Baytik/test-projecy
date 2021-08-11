@@ -25,9 +25,6 @@ const Home = () => {
             image: require('../Images/image-16.jpg')
           }]}
         />
-        <View>
-          <Text>Home screen</Text>
-        </View>
       </ScrollView>
       <Footer/>
     </View>
