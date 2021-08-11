@@ -10,7 +10,7 @@ import Parameters from './Parameters'
 const Home = ({ navigation }) => {
   return (
     <View style={{ flex: 1, paddingHorizontal: '5%', backgroundColor: '#fff' }}>
-      <Header burger logo search/>
+      <Header burger logo search navigation={navigation}/>
       <ScrollView
         showsVerticalScrollIndicator={false}
         showsHorizontalScrollIndicator={false}

@@ -6,10 +6,10 @@ import { carCategory } from '../store/carCategory'
 import CarCategory from './CarCategory'
 import Category from './Category'
 
-const ParametersScreen = () => {
+const ParametersScreen = ({ navigation }) => {
   return (
     <View style={{ flex: 1, paddingHorizontal: '5%', backgroundColor: '#fff' }}>
-      <Header back logo/>
+      <Header back logo navigation={navigation}/>
       <ScrollView
         showsVerticalScrollIndicator={false}
         showsHorizontalScrollIndicator={false}
