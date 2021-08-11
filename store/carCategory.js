@@ -1,0 +1,42 @@
+export const carCategory = [
+  {
+    id: 1,
+    text: 'Кабриолет',
+    image: require('../Images/image-23.jpg')
+  }, {
+    id: 2,
+    text: 'Кабриолет',
+    image: require('../Images/image-16.jpg')
+  }, {
+    id: 3,
+    text: 'Кабриолет',
+    image: require('../Images/image-13.jpg')
+  }, {
+    id: 4,
+    text: 'Кабриолет',
+    image: require('../Images/image-14.jpg')
+  }, {
+    id: 5,
+    text: 'Кабриолет',
+    image: require('../Images/image-17.jpg')
+  }, {
+    id: 6,
+    text: 'Кабриолет',
+    image: require('../Images/image-15.jpg')
+  }, {
+    id: 7,
+    text: 'Кабриолет',
+    image: require('../Images/image-21.jpg')
+  }, {
+    id: 8,
+    text: 'Кабриолет',
+    image: require('../Images/image-18.jpg')
+  }, {
+    id: 9,
+    text: 'Кабриолет',
+    image: require('../Images/image-19.jpg')
+  }, {
+    id: 10,
+    text: 'Кабриолет',
+    image: require('../Images/image-20.jpg')
+  }]

@@ -1,9 +1,11 @@
 import React from 'react'
-import { ScrollView, Text, View } from 'react-native'
+import { ScrollView, View } from 'react-native'
 import Footer from '../Components/Footer'
 import Header from '../Components/Header'
+import { carCategory } from '../store/carCategory'
 import CarCategory from './CarCategory'
 import Category from './Category'
+import Parameters from './Parameters'
 
 const Home = () => {
   return (
@@ -14,17 +16,8 @@ const Home = () => {
         showsHorizontalScrollIndicator={false}
       >
         <Category data={[{ text: 'Легковые' }, { text: 'Комтранс' }, { text: 'Мото' }, { text: 'Автозапчасти' }, { text: 'С пробегом' }, { text: 'Новые' }]}/>
-        <CarCategory
-          data={[{ id: 1, text: 'Кабриолет', image: require('../Images/image-23.jpg') }, {
-            id: 2,
-            text: 'Кабриолет',
-            image: require('../Images/image-16.jpg')
-          }, { id: 3, text: 'Кабриолет', image: require('../Images/image-23.jpg') }, {
-            id: 4,
-            text: 'Кабриолет',
-            image: require('../Images/image-16.jpg')
-          }]}
-        />
+        <CarCategory data={carCategory}/>
+        <Parameters/>
       </ScrollView>
       <Footer/>
     </View>
