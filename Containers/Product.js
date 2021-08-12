@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { Image, Text, TouchableOpacity, View } from 'react-native'
 
 const Product = ({item}) => {

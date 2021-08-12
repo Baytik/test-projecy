@@ -10,7 +10,7 @@ import Products from './Products'
 
 const Home = ({ navigation }) => {
   return (
-    <View style={{ flex: 1, paddingHorizontal: '5%', backgroundColor: '#fff' }}>
+    <View style={{ flex: 1, paddingHorizontal: '4%', backgroundColor: '#fff' }}>
       <Header burger logo search navigation={navigation}/>
       <ScrollView
         showsVerticalScrollIndicator={false}

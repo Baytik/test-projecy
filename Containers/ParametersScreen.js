@@ -8,7 +8,7 @@ import FilterInputs from './FilterInputs'
 
 const ParametersScreen = ({ navigation }) => {
   return (
-    <View style={{ flex: 1, paddingHorizontal: '5%' }}>
+    <View style={{ flex: 1, paddingHorizontal: '4%' }}>
       <Header back logo navigation={navigation}/>
       <ScrollView
         showsVerticalScrollIndicator={false}
@@ -16,7 +16,7 @@ const ParametersScreen = ({ navigation }) => {
       >
         <Category data={[{ text: 'Все' }, { text: 'Новые' }, { text: 'С пробегом' }]} center={'center'}/>
         <FilterInputs/>
-        <FilterButtons/>
+        <FilterButtons navigation={navigation}/>
         <View style={{ marginVertical: 25, flexDirection: 'row', justifyContent: 'space-between' }}>
           <View>
             <Text style={{ color: '#9C9C9C' }}>3 547 предложений</Text>
