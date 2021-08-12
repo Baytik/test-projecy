@@ -5,6 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import Brands from './Containers/Brands'
 import Home from './Containers/Home'
 import Models from './Containers/Models'
+import ParameterScreen from './Containers/ParameterScreen'
 import ParametersScreen from './Containers/ParametersScreen'
 
 const Stack = createNativeStackNavigator()
@@ -20,6 +21,7 @@ export default function App () {
       >
         <Stack.Screen name='Home' component={Home}/>
         <Stack.Screen name='ParametersScreen' component={ParametersScreen}/>
+        <Stack.Screen name='ParameterScreen' component={ParameterScreen}/>
         <Stack.Screen name='Brands' component={Brands}/>
         <Stack.Screen name='Models' component={Models}/>
       </Stack.Navigator>

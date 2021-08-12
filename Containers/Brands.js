@@ -56,6 +56,18 @@ const Brands = ({ navigation }) => {
             </TouchableOpacity>
           ))}
         </View>
+        <View style={{ marginVertical: 20 }}>
+          <TouchableOpacity
+            style={{
+              backgroundColor: '#EA4F3D',
+              paddingVertical: 15,
+              marginHorizontal: '10%',
+              borderRadius: 10
+            }}
+          >
+            <Text style={{ color: '#fff', textAlign: 'center' }}>Показать 401 321 предложений</Text>
+          </TouchableOpacity>
+        </View>
       </ScrollView>
     </View>
   )
