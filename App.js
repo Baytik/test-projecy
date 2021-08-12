@@ -7,6 +7,7 @@ import Home from './Containers/Home'
 import Models from './Containers/Models'
 import ParameterScreen from './Containers/ParameterScreen'
 import ParametersScreen from './Containers/ParametersScreen'
+import RegionScreen from './Containers/RegionScreen'
 
 const Stack = createNativeStackNavigator()
 
@@ -24,6 +25,7 @@ export default function App () {
         <Stack.Screen name='ParameterScreen' component={ParameterScreen}/>
         <Stack.Screen name='Brands' component={Brands}/>
         <Stack.Screen name='Models' component={Models}/>
+        <Stack.Screen name='Region' component={RegionScreen}/>
       </Stack.Navigator>
     </NavigationContainer>
   )

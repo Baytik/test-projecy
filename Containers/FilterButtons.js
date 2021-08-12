@@ -15,7 +15,7 @@ const FilterButtons = ({ navigation }) => {
           <Text style={{ fontSize: 14 }}>Марка модель</Text>
         </View>
       </TouchableOpacity>
-      <TouchableOpacity style={{ backgroundColor: '#fff', borderRadius: 15 }}>
+      <TouchableOpacity style={{ backgroundColor: '#fff', borderRadius: 15 }} onPress={() => navigation.push('Region')}>
         <View style={{ flexDirection: 'row', margin: 12 }}>
           <Text style={{ fontSize: 14 }}>Регион</Text>
         </View>
