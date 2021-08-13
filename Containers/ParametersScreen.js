@@ -2,6 +2,8 @@ import React from 'react'
 import { Image, ScrollView, Text, TouchableOpacity, View } from 'react-native'
 import Footer from '../Components/Footer'
 import Header from '../Components/Header'
+import { carStore } from '../store/carStore'
+import { CarParameters } from './Product'
 import Category from './Category'
 import FilterButtons from './FilterButtons'
 import FilterInputs from './FilterInputs'
@@ -28,6 +30,7 @@ const ParametersScreen = ({ navigation }) => {
             </TouchableOpacity>
           </View>
         </View>
+        {carStore.length > 0 ? carStore.map(c => (<CarParameters key={c.id} item={c}/>)) : <Text style={{ fontSize: 30 }}>Нет машин</Text>}
       </ScrollView>
       <Footer/>
     </View>
