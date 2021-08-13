@@ -24,7 +24,6 @@ export const Car = ({ item }) => {
 }
 
 export const CarParameters = ({ item }) => {
-  console.log(item)
   return (
     <View style={{ marginBottom: 32 }}>
       <Text style={{ fontSize: 16, marginVertical: 5 }}>{item.name}, {item.year} г</Text>
